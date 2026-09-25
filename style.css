@@ -496,3 +496,243 @@ input {
 .support-title {
   margin-bottom: 15px;
 }
+
+/* Responsive mode */
+@media (max-width: 900px) {
+  .menue {
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    padding: 0 24px;
+  }
+
+  nav > ul > li {
+    padding: 12px 8px;
+  }
+
+  .btn-one {
+    transform: none;
+  }
+
+  .home,
+  .our-ser-title,
+  .our-ser-img-container,
+  .our-men-title-container {
+    width: 100%;
+  }
+
+  .home {
+    margin: 24px 0 0;
+    padding: 0 6vw;
+  }
+
+  .home-text {
+    transform: none;
+  }
+
+  .image-one img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .our-ser-img-container {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 24px;
+  }
+
+  .our-ser-all-imgs-style {
+    width: min(400px, 100%);
+  }
+
+  .our-menu-container {
+    height: auto;
+    padding: 0 24px 48px;
+  }
+
+  .our-review-container {
+    height: auto;
+    padding: 72px 6vw;
+  }
+
+  .our-review-img img,
+  .our-application-img-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .our-aplication-container {
+    width: 88vw;
+    height: auto;
+    min-height: 500px;
+    padding: 32px;
+  }
+
+  .footer-container {
+    height: auto;
+    padding: 48px 6vw;
+    flex-wrap: wrap;
+    gap: 32px 0;
+  }
+
+  .foodie {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .our-menu,
+  .company,
+  .support {
+    width: 16.66%;
+  }
+}
+
+@media (max-width: 600px) {
+  .menue {
+    justify-content: center;
+    padding: 0 16px;
+  }
+
+  nav {
+    order: 3;
+    width: 100%;
+  }
+
+  nav > ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav > ul > li {
+    padding: 8px 6px;
+  }
+
+  .home,
+  .our-review-container,
+  .our-aplication-container {
+    flex-direction: column;
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  .home-text,
+  .image-one,
+  .our-review-img,
+  .our-review-text-container,
+  .our-application-img-container,
+  .our-application-text-container {
+    width: 100%;
+  }
+
+  .home-text {
+    align-items: center;
+  }
+
+  .h-one,
+  .our-application-h1 {
+    font-size: 2.25rem;
+  }
+
+  .image-one img {
+    max-height: 360px;
+    margin-top: 24px;
+  }
+
+  .our-ser-title {
+    height: auto;
+    padding: 48px 16px 24px;
+    text-align: center;
+  }
+
+  .our-ser-h {
+    font-size: 2rem;
+  }
+
+  .our-review-container {
+    gap: 36px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .our-review-text-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .our-review-gay-review {
+    max-width: 100%;
+  }
+
+  .our-aplication-container {
+    width: 88vw;
+    min-height: 0;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .our-application-text-container {
+    align-items: center;
+  }
+
+  .our-application-btn {
+    align-self: center;
+  }
+
+  .subs-container {
+    height: auto;
+    padding: 72px 16px;
+  }
+
+  .subs-h1 {
+    font-size: 1.7rem;
+  }
+
+  .subs-p {
+    width: auto;
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  form {
+    width: 100%;
+    height: auto;
+  }
+
+  input {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .input-btn {
+    flex-shrink: 0;
+    transform: translateX(-8px);
+  }
+
+  .footer-banner {
+    height: auto;
+    padding: 18px 16px;
+    text-align: center;
+  }
+
+  .footer-banner h2 {
+    font-size: 1rem;
+  }
+
+  .footer-container {
+    padding: 40px 24px;
+  }
+
+  .foodie,
+  .our-menu,
+  .company,
+  .support {
+    width: 50%;
+  }
+
+  .foodie {
+    order: 4;
+    width: 100%;
+  }
+}
